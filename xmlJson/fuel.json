@@ -1,0 +1,133 @@
+
+{
+    "@lat": "65.985123",
+    "@long": "31.554123",
+    "@msg": "Fuel Stations",
+    "station": [{
+            "@stationID": "121314",
+            "@distance": "10.2",
+            "county": {
+                "@countyID": "010203",
+                "#text": "Καρδίτσα"
+            },
+            "municipality": {
+                "@municipalityID": "123321",
+                "#text": "Υψηλάντου"
+            },
+            "dd": {
+                "@ddID": "123551",
+                "#text": "Κοινότητα Πλαστήρα"
+            },
+            "address": "Νικόλαου Πλαστήρα 76, Καρδίτσα",
+            "companyName": "Τζιβένης Shell",
+            "lat": "89.123534",
+            "long": "43.954124",
+            "h24": {
+                "@value": "1"
+            },
+            "brand": {
+                "@brandID": "1",
+                "#text": "Shell"
+            },
+            "phone": [
+                "2441023474",
+                "6986894741"
+            ],
+            "fuels": [{
+                    "@fuelTypeID": "1",
+                    "@price": "1.956",
+                    "@priceTimeStamp": "2024-04-12 12:00:58",
+                    "#text": "Αμόλυβδη 95"
+                },
+                {
+                    "@fuelTypeID": "2",
+                    "@price": "2.201",
+                    "@priceTimeStamp": "2024-04-12 12:01:58",
+                    "#text": "Αμόλυβδη 98/100"
+                }
+            ]
+        },
+        {
+            "@stationID": "111415",
+            "@distance": "6.2",
+            "county": {
+                "@countyID": "669123",
+                "#text": "Τρίκαλα"
+            },
+            "municipality": {
+                "@municipalityID": "232425",
+                "#text": "Καλαμπάκας"
+            },
+            "dd": {
+                "@ddID": "556677",
+                "#text": "Καλαμπάκας"
+            },
+            "address": "Ιωαννίνων 33, Καλαμπάκα",
+            "companyName": "Τσιρούνης JetOil",
+            "lat": "55.124366",
+            "long": "99.123685",
+            "h24": {
+                "@value": "0"
+            },
+            "brand": {
+                "@brandID": "2",
+                "#text": "JetOil"
+            },
+            "phone": "244102459491",
+            "fuels": [{
+                    "@fuelTypeID": "1",
+                    "@price": "1.55",
+                    "@priceTimeStamp": "2024-04-11 15:15:75",
+                    "#text": "Diesel Κίνησης"
+                },
+                {
+                    "@fuelTypeID": "2",
+                    "@price": "0.94",
+                    "@priceTimeStamp": "2024-04-11 15:16:32",
+                    "#text": "Υγραέριο Κίνησης"
+                }
+            ]
+        },
+        {
+            "@stationID": "675849",
+            "@distance": "7.4",
+            "county": {
+                "@countyID": "008135",
+                "#text": "Λάρισας"
+            },
+            "municipality": {
+                "@municipalityID": "008135",
+                "#text": "Ελλασόνα"
+            },
+            "dd": {
+                "@ddID": "079812",
+                "#text": "Ελλασόνα"
+            },
+            "address": "Κενταύρου 35, Βελεστίνο",
+            "companyName": "Καστανάρας ΑΠ",
+            "lat": "66.445523",
+            "long": "11.124352",
+            "h24": {
+                "@value": "1"
+            },
+            "brand": {
+                "@brandID": "3",
+                "#text": "JETOIL"
+            },
+            "phone":["2444023941","6983818544"],
+            "fuels": [{
+                    "@fuelTypeID": "1",
+                    "@price": "1.882",
+                    "@priceTimeStamp": "2024-04-11 19:45:33",
+                    "#text": "Super"
+                },
+                {
+                    "@fuelTypeID": "2",
+                    "@price": "1.445",
+                    "@priceTimeStamp": "2024-04-11 19:40:45",
+                    "#text": "Diesel Θέρμανσης"
+                }
+            ]
+        }
+    ]
+}

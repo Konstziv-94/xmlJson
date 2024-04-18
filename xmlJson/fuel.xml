@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DTD -->
+<!DOCTYPE dataset [
+	<!ELEMENT dataset (station)*>
+	<!ATTLIST dataset lat CDATA #REQUIRED long CDATA #REQUIRED msg CDATA #REQUIRED>
+	<!ELEMENT station (county,municipality,dd,address,companyName,lat,long,h24,brand,phone+,fuels)*>
+	<!ATTLIST station distance CDATA #REQUIRED stationID CDATA #REQUIRED>
+	<!ELEMENT county (#PCDATA)>
+	<!ATTLIST county countyID CDATA #REQUIRED>
+	<!ELEMENT municipality (#PCDATA)>
+	<!ATTLIST municipality municipalityID CDATA #REQUIRED>
+	<!ELEMENT dd (#PCDATA)>
+	<!ATTLIST dd ddID CDATA #REQUIRED>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT companyName (#PCDATA)>
+	<!ELEMENT lat (#PCDATA)>
+	<!ELEMENT long (#PCDATA)>
+	<!ELEMENT h24 EMPTY>
+	<!ATTLIST h24 value (0|1) #IMPLIED>
+	<!ELEMENT brand (#PCDATA)>
+	<!ATTLIST brand brandID CDATA #REQUIRED>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT fuels (fuel)*>
+	<!ELEMENT fuel (#PCDATA)>
+	<!ATTLIST fuel fuelTypeID CDATA #REQUIRED price CDATA #REQUIRED priceTimeStamp CDATA #REQUIRED>
+]>
+<!--XML -->
+<dataset msg="Fuel Stations" long="31.554123" lat="65.985123">
+	<station distance="10.2" stationID="121314">
+		<county countyID="010203">Καρδίτσα</county>
+		<municipality municipalityID="123321">Υψηλάντου</municipality>
+		<dd ddID="123551">Κοινότητα Πλαστήρα</dd>
+		<address><![CDATA[
+		             Νικόλαου Πλαστήρα 76, Καρδίτσα
+				 ]]>
+		</address>
+		<companyName><![CDATA[
+		            Τζιβένης Shell
+				     ]]>
+		</companyName>
+		<lat>89.123534</lat>
+		<long>43.954124</long>
+		<h24 value="1"/>
+		<brand brandID="1">Shell</brand>
+		<phone>2441023474</phone>
+		<phone>6986894741</phone>
+		<fuels>
+		    <fuel priceTimeStamp="2024-04-12 12:00:58"
+			  price="1.956"
+			  fuelTypeID="1">Αμόλυβδη 95</fuel>
+		    <fuel priceTimeStamp="2024-04-12 12:01:58"
+				  price="2.201"
+				  fuelTypeID="2">Αμόλυβδη 98/100</fuel>
+			</fuels>
+	</station>
+	<station distance="6.2" stationID="111415">
+		<county countyID="669123">Τρίκαλα</county>
+		<municipality municipalityID="232425">Καλαμπάκας</municipality>
+		<dd ddID="556677">Καλαμπάκα</dd>
+		<address><![CDATA[
+		            Ιωαννίνων 33, Καλαμπάκα
+				 ]]>
+		</address>
+		<companyName><![CDATA[
+		            Τσιρούνης JetOil
+				     ]]>
+		</companyName>
+		<lat>55.124366</lat>
+		<long>99.123685</long>
+		<h24 value="0"/>
+		<brand brandID="1">JetOil</brand>
+		<phone>244102459491</phone>
+		<fuels>
+			<fuel priceTimeStamp="2024-04-11 15:15:75"
+					      price="1.55"
+					      fuelTypeID="1">Diesel Κίνησης</fuel>
+			<fuel priceTimeStamp="2024-04-11 15:16:32"
+					      price="0.94"
+					      fuelTypeID="2">Υγραέριο Κίνησης</fuel>
+		</fuels>
+	</station>
+	<station distance="7.4" stationID="675849">
+		<county countyID="975724">Λάρισας</county>
+		<municipality municipalityID="008135">Ελλασόνα</municipality>
+		<dd ddID="079812">Ελλασόνα</dd>
+		<address><![CDATA[
+		            Θεόδωρος Κολοκοτρώνης 2, Ελλασόνα
+				 ]]>
+		</address>
+		<companyName><![CDATA[
+	                Καστανάρας ΑΠ
+					]]>
+		</companyName>
+		<lat>66.445523</lat>
+		<long>11.124352</long>
+		<h24 value="1"/>
+		<brand brandID="3">ΑΠ</brand>
+		<phone>2444023941</phone>
+		<phone>6983818544</phone>
+		<fuels>
+			<fuel priceTimeStamp="2024-04-11 19:45:33"
+					      price="1.882"
+					      fuelTypeID="1">Super</fuel>
+			<fuel priceTimeStamp="2024-04-11 19:40:45"
+					      price="1.445"
+					      fuelTypeID="2">Diesel Θέρμανσης</fuel>
+		</fuels>
+	</station>
+</dataset>
